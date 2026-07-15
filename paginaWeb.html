@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="paginaWeb.css">
+    <title>Desafio Dio HTML 1</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#What-is-tag">O que são tags</a></li>
+                <li><a href="#Functions">Quais são suas funções</a></li>
+                <li><a href="#Acessibility">A importancia da acessibilidade nos sites</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <H1 id="What-is-tag"> O que são tags</H1>
+            <h3>Tags são os blocos de construção básicos do HTML. Elas funcionam como "etiquetas" que dizem ao navegador web como organizar 
+            e exibir o conteúdo (como textos, imagens ou links). Elas são delimitadas por sinais de menor e maior que, como em <tag></tag></h3>
+             <blockquote>Existem também tags que não precisam de fechamento, como a que insere uma imagem: <i> 'img src="imagem.jpg" alt="Exemplo"'</i></blockquote>
+             
+            <H2>As Tags Mais Comuns</H2>
+                <ol>
+                    <li>h1 a h6</li>
+                    <li>p</li>
+                    <li>a</li>
+                    <li>img</li>
+                    <li>div</li>
+                 </ol>
+
+                 <hr>
+
+        <H1 id="Functions">Quais são suas funções</H1>  
+                <ol>
+                    <li>h1 até h6 (Títulos/Headings): Definem os títulos e subtítulos da página em uma escala hierárquica de importância. O h1 representa o título principal 
+                        (deve haver apenas um por página para fins de SEO), enquanto o h6 é o subtítulo de menor peso visual e estrutural.</li>
+                    <li> p (Parágrafo): É a tag mais comum para blocos de texto. Ela agrupa sentenças e, por padrão, adiciona um pequeno espaço antes e depois do bloco para organizar a leitura.</li>
+                    <li>blockquote (Citação em bloco): Indica que o texto contido é uma citação longa de outra fonte. Visualmente, os navegadores costumam aplicar um recuo (margem) à esquerda para destacá-lo do restante do conteúdo.</li>
+                    <li>strong (Importância Forte): Utilizada para dar grande relevância ou urgência a um trecho de texto. Visualmente, o navegador exibe o conteúdo em <strong>negrito</strong>. (Dica: tem valor semântico para leitores de tela, ao contrário da tag b que é puramente visual).</li>
+                    <li>i (Texto Idiomático/Itálico): <i>Usada para indicar um tom de voz diferente</i>, termos técnicos, palavras em outros idiomas ou pensamentos. Visualmente, deixa o texto em itálico.</li>
+                    <li>u (Texto Sublinhado): <u>Aplica uma linha abaixo do texto</u>. Hoje em dia, seu uso semântico serve para indicar anotações não articuladas ou termos que merecem atenção visual (como palavras com erro ortográfico), mas deve ser usada com cautela para o usuário não confundi-la com um link.</li>
+                    <li>mark (Texto Marcado): Funciona como um <mark>"marca-texto"</mark> virtual. Destaca uma palavra ou trecho, aplicando por padrão um fundo amarelo brilhante.</li>
+                    <li>small (Texto Menor): Reduz o <small>tamanho da fonte em um nível</small>. Semântica e comumente utilizada para "letras miúdas", como termos de uso, direitos autorais (copyright) ou notas de rodapé.</li>
+                    <li>sub (Subscrito): Posiciona o texto ligeiramente abaixo da linha regular e com tamanho menor. Muito usada em fórmulas químicas (ex: H<sub>2</sub>O).</li>
+                    <li>sup (Sobrescrito): Posiciona o texto ligeiramente acima da linha regular. Ideal para potências matemáticas (ex: x<sup>2</sup>) ou indicadores de notas de rodapé.</li>
+                    <li>ul (Lista Não Ordenada): Cria uma lista de itens que não dependem de uma sequência específica. Por padrão, exibe marcadores de pontos (bullets).</li>
+                    <li>ol (Lista Ordenada): Cria uma lista sequencial ou numerada (1, 2, 3...), ideal para passo a passos ou rankings.</li>
+                    <li>li (Item de Lista): É a tag que representa cada item individual dentro de uma lista (seja ela ul ou l). Ela não deve ser usada solta no código.</li>
+                    <li>a (Âncora/Link): É a tag que cria hiperlinks para outras páginas da web, arquivos, endereços de e-mail ou até mesmo para seções dentro da própria página (usando o atributo href).</li>
+                    <li>hr (Quebra Temática/Linha Horizontal): Representa uma mudança visual ou temática de assunto no conteúdo. Visualmente, renderiza uma linha horizontal divisória de ponta a ponta na tela. É uma tag de fechamento automático (não precisa de /hr).</li>
+                </ol>
+
+                <hr>
+
+        <H1 id="Acessibility">Importância da acessibilidade nos sites</H1>    
+        <h3>A acessibilidade na web significa garantir que qualquer pessoa — independentemente de suas capacidades físicas, visuais, auditivas, cognitivas ou motoras — consiga navegar, entender e interagir com um site de forma autônoma.
+            Criar sites acessíveis não é apenas uma boa prática técnica; é um pilar fundamental por motivos sociais, legais e até comerciais.</h3>    
+            <ol>
+                <li><mark>Inclusão Social e Direitos Humanos</mark></li>
+                    <p>A internet hoje é o principal meio para acessar serviços básicos: internet banking, matrículas escolares, resultados de exames, compras e vagas de emprego. Quando um site não é acessível, ele cria uma barreira digital que exclui milhões de pessoas da sociedade moderna.
+                      Garantir a acessibilidade é validar o direito de escolha e a autonomia de pessoas com deficiência (PCD), permitindo que elas consumam conteúdo sem depender da ajuda de terceiros.</p>
+                <li><mark>Benefícios Comerciais e Alcance de Público</mark></li>
+                    <p>Ignorar a acessibilidade significa fechar as portas para uma parcela gigantesca do mercado. No Brasil, milhões de pessoas possuem algum tipo de deficiência ou limitação funcional. Além disso, a população está envelhecendo, o que naturalmente traz limitações visuais e motoras.</p>
+                <li><mark>Melhoria no SEO (Rankeamento no Google)</mark></li>
+                <p>Os robôs dos motores de busca (como o Google) não "enxergam" a tela do site da mesma forma que nós. Eles leem o código de maneira muito parecida com um ledor de tela (software usado por pessoas cegas).</p>
+            </ol>
+    </main>
+
+    <Footer> <nav class="nav-bar">
+            <ul>
+                <li><a href="https://www.instagram.com/vhoriquini.nutri/" target="_blank">Meu instagram</a></li>
+                <li><a href="https://www.linkedin.com/in/valdeci-horiquini-dev/" target="_blank">Meu linkedin</a></li>
+                <li><a href="https://github.com/Horiquini" target="_blank">Meu GIT</a></li>
+                <li><a href="https://www.dio.me/" target="_blank">Dio</a></li>
+            </ul>
+        </nav></Footer>
+
+</body>
+</html>
+
